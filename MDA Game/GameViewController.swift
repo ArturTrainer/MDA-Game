@@ -16,7 +16,8 @@ class GameViewController: UIViewController {
     var ship: SCNNode!
     var gameOver = false
     var counter: Int = 0
-    
+   
+
     
     func spawnShip () {
         ship = SCNScene(named: "art.scnassets/ship.scn")!.rootNode.clone()
